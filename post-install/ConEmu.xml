@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2022-11-25 15:49:46" build="220807">
+		<key name=".Vanilla" modified="2022-11-25 16:06:06" build="220807">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -780,6 +780,9 @@
 					<!-- White (Number, Git diff text) -->
 				</key>
 			</key>
+			<value name="CmdLineHistory" type="multi">
+				<line data="{Bash::Git bash}"/>
+			</value>
 		</key>
 	</key>
 </key>
